@@ -19,7 +19,7 @@ class MainApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.green,
           // ···
-          brightness: Brightness.light,
+          brightness: Brightness.dark,
         ),
       ),
     );
