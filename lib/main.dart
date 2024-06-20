@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:seasoning_recipe_app/screens/home_page.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,11 +12,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello Seasoning!'),
-        ),
-      ),
+      home: HomePage(),
       themeMode: ThemeMode.system,
       theme: ThemeData(
         useMaterial3: true,
